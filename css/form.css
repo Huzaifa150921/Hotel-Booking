@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background: url("../Home pics/d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(50);
+}
+
+#field{
+    width: 37vw;
+    height: 145vh;
+    position: absolute;
+    border-radius: 15px;
+    top: 9%;
+    left: 33%;
+    /* margin: -6px; */
+    padding: 31px;
+    background-color: #ff000026;
+
+}
+
+@media only screen and (max-width:1280px){
+    #field{
+        width: 37vw;
+        height: 110vh;
+        position: absolute;
+        border-radius: 15px;
+        top: 9%;
+        left: 33%;
+        /* margin: -6px; */
+        padding: 31px;
+        background-color: #ff000026;
+    
+    }
+    
+}
+
+.l{
+    font-size: 22px;
+    font-weight: 600;
+    
+    top: 48px;
+
+
+}
+
+.i{
+    height: 27px;
+    padding: 5px;
+    width: 479px;
+    font-size: 17px;
+}
+
+#fname{
+  
+}
+
+form{
+    padding: auto;
+    position: absolute;
+    top: 275px;
+}
+
+fieldset h1{
+    font-size: 50px;
+    width: 79%;
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 18%;
+    left: 11%;
+    text-align: center;
+
+}
+
+.i ::placeholder{
+    font-size: 2px;
+}
+
+img{
+    height: 61px;
+    width: 74px;
+    position: absolute;
+    top: 42px;
+    left: 228px;
+    cursor: pointer;
+}
+
+.btn{
+    height: -4%;
+    width: 18%;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+.btn:hover{
+
+background-color: rgba(0, 0, 0, 0.136);
+cursor: pointer;
+}
+
+#days
+{
+    font-size: 18px;
+    margin: 5px;
+    padding: 3px;
+    width: 93px;
+    height: 30px;
+}
+#days:hover{
+cursor: pointer;
+}
+#option:hover{
+    cursor: pointer;
+    }

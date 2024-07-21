@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <fieldset id="field">
+
+        <a href="index.html"><img src="../Home pics/logo.PNG" alt="logo"></a>
+        <h1>Book Now!</h1>
+        <form action="../php/form.php" method="post">
+        <label for="fname" class="l" id="fname">First Name:  </label>
+        <br>
+        
+        <input type="text" name="fname" id="fname" placeholder="Enter your first name" class="i" required>
+       <br>
+       <br>
+        <label for="lname" class="l">Last Name:  </label>
+       <br>
+        <input type="text" name="lname" id="lname" placeholder="Enter your last name" class="i" required>
+     <br>
+     <br>
+     <label for="cnic" class="l">CNIC:  </label>
+     <br>
+      <input type="tel" name="cnic" id="cnic" placeholder="Enter your CNIC" class="i" required>
+   <br>
+   <br>
+     <label for="age" class="l">Age:  </label>
+     <br>
+      <input type="number" name="age" id="age" placeholder="Enter your Age" class="i" required>
+   <br>
+   <br>
+        <label for="email" class="l">E-mail:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Enter your E-mail" class="i" required>
+<br>
+<br>
+       
+        <label for="pnumber" class="l">Phone Number:</label>
+        <br>
+        <input type="tel" name="pnumber" id="pnumber" placeholder="Enter your phone number" class="i" required>
+        <br>
+        <br>
+        <label for="address" class="l">Address:</label>
+        <br>
+        <input type="text" name="address" id="address" placeholder="Enter your Adresss" class="i" required>
+        <br>
+        <br>
+        <label for="days" class="l">Select Days:</label>
+      
+        <select name="days" id="days" required>
+          <option value="Select">Select</option>
+          <option value="1 Day">1 Day</option>
+          <option value="7 Days">7 Days</option>
+          <option value="14 Day">14 Day</option>
+          <option value="30 Days">30 Days</option>
+        </select>
+        <br>
+        <br>
+      <input type="submit" value="Submit" class="btn">
+      <input type="reset" value="Reset" class="btn">
+
+        </form>
+
+
+      
+    </fieldset>
+</body>
+</html>
